@@ -149,7 +149,7 @@
     <!-- # Unregister On Reboot. 0 - No, 1 - Yes, 2 - Instance. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P81>0</P81>
+    <P81>1</P81>
 
     <!-- # Register Expiration (in minutes). Default is 60. Max about 45 days -->
     <!-- # Number: 1 - 64800 -->
@@ -354,7 +354,7 @@
 
     <!-- # Conference URI -->
     <!-- # String -->
-    <P2318>{if $nway_conference == true}nway{$account.1.user_id}@{$account.1.server_address}{/if}</P2318>
+    <P2318></P2318>
 
     <!-- # Music On Hold URI -->
     <!-- # String -->
@@ -795,7 +795,7 @@
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P1489>{$grandstream_distinctive_ringtone_1}</P1489>
+    <P1489>5</P1489>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 2 -->
     <!-- # String -->
@@ -805,87 +805,87 @@
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P1491>{$grandstream_distinctive_ringtone_2}</P1491>
+    <P1491>2</P1491>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 3 -->
     <!-- # String -->
-    <P1492>{$grandstream_distinctive_ringtone_name_3}</P1492>
+    <P1492>ring3</P1492>
 
     <!-- # Matching Rule 3 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P1493>{$grandstream_distinctive_ringtone_3}</P1493>
+    <P1493>3</P1493>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 4 -->
     <!-- # String -->
-    <P6716>{$grandstream_distinctive_ringtone_name_4}</P6716>
+    <P6716></P6716>
 
     <!-- # Matching Rule 4 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P6717>{$grandstream_distinctive_ringtone_4}</P6717>
+    <P6717>5</P6717>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 5 -->
     <!-- # String -->
-    <P6718>{$grandstream_distinctive_ringtone_name_5}</P6718>
+    <P6718></P6718>
 
     <!-- # Matching Rule 5 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P6719>{$grandstream_distinctive_ringtone_5}</P6719>
+    <P6719>5</P6719>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 6 -->
     <!-- # String -->
-    <P6720>{$grandstream_distinctive_ringtone_name_6}</P6720>
+    <P6720></P6720>
 
     <!-- # Matching Rule 6 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P6721>{$grandstream_distinctive_ringtone_6}</P6721>
+    <P6721>5</P6721>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 7 -->
     <!-- # String -->
-    <P26064>{$grandstream_distinctive_ringtone_name_7}</P26064>
+    <P26064></P26064>
 
     <!-- # Matching Rule 7 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P26065>{$grandstream_distinctive_ringtone_7}</P26065>
+    <P26065>5</P26065>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 8 -->
     <!-- # String -->
-    <P26066>{$grandstream_distinctive_ringtone_name_8}</P26066>
+    <P26066></P26066>
 
     <!-- # Matching Rule 8 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P26067>{$grandstream_distinctive_ringtone_8}</P26067>
+    <P26067>5</P26067>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 9 -->
     <!-- # String -->
-    <P26068>{$grandstream_distinctive_ringtone_name_9}</P26068>
+    <P26068></P26068>
 
     <!-- # Matching Rule 9 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P26069>{$grandstream_distinctive_ringtone_9}</P26069>
+    <P26069>5</P26069>
 
     <!-- # Matching Incoming Caller ID. Matching Rule 10 -->
     <!-- # String -->
-    <P26096>{$grandstream_distinctive_ringtone_name_10}</P26096>
+    <P26096></P26096>
 
     <!-- # Matching Rule 10 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 5. -->
     <!-- # Number: -1, 0, 1, 2, 3, 4, 5 -->
     <!-- # Mandatory -->
-    <P26097>{$grandstream_distinctive_ringtone_10}</P26097>
+    <P26097>5</P26097>
 
     <!-- # Ring Timeout (in seconds). Default is 60 -->
     <!-- # Number: 30 - 3600 -->
@@ -929,19 +929,19 @@
 
     <!-- #Do Not Disturb (DND) - On -->
     <!-- # String -->
-    <P2344></P2344>
+    <P2344>*78</P2344>
 
     <!-- #Do Not Disturb (DND) - Off -->
     <!-- # String -->
-    <P2345></P2345>
+    <P2345>*79</P2345>
 
     <!-- #Call Forward Unconditionally (All) - On -->
     <!-- # String -->
-    <P26013></P26013>
+    <P26013>*72</P26013>
 
     <!-- #Call Forward Unconditionally (All) - Off -->
     <!-- # String -->
-    <P26014></P26014>
+    <P26014>*73</P26014>
 
     <!-- #Call Forward Busy - On -->
     <!-- # String -->
@@ -1308,7 +1308,7 @@
 
     <!-- # Conference URI -->
     <!-- # String -->
-    <P2418>{if $nway_conference == true}nway{$account.2.user_id}@{$account.2.server_address}{/if}</P2418>
+    <P2418></P2418>
 
     <!-- # Music On Hold URI -->
     <!-- # String -->
@@ -1878,19 +1878,35 @@
 
     <!-- #Do Not Disturb (DND) - On -->
     <!-- # String -->
-    <P2444></P2444>
+    {if isset($account.2.password)}
+        <P2444>*78</P2444>
+    {else}
+	<P2444></P2444>
+    {/if}
 
     <!-- #Do Not Disturb (DND) - Off -->
     <!-- # String -->
-    <P2445></P2445>
+    {if isset($account.2.password)}
+        <P2445>*79</P2445>
+    {else}
+        <P2445></P2445>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - On -->
     <!-- # String -->
-    <P26113></P26113>
+    {if isset($account.2.password)}
+        <P26113>*72</P26113>
+    {else}
+        <P25113></P25113>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - Off -->
     <!-- # String -->
-    <P26114></P26114>
+    {if isset($account.2.password)}
+        <P26114>*73</P26114>
+    {else}
+        <P26114></P26114>
+    {/if}
 
     <!-- #Call Forward Busy - On -->
     <!-- # String -->
@@ -2256,7 +2272,7 @@
 
     <!-- # Conference URI -->
     <!-- # String -->
-    <P2518>{if $nway_conference == true}nway{$account.3.user_id}@{$account.3.server_address}{/if}</P2518>
+    <P2518></P2518>
 
     <!-- # Music On Hold URI -->
     <!-- # String -->
@@ -2615,7 +2631,7 @@
 
     <!-- # Matching Incoming Caller ID. Matching Rule 1 -->
     <!-- # String -->
-    <P1500>{$grandstream_distinctive_ringtone_name_1}</P1500>
+    <P1500></P1500>
 
     <!-- # Matching Rule 1 Distinctive Ringtone -->
     <!-- # -1 - No Ringtone, 0 - system ring tone, 1 - custom ring tone 1, 2 - custom ring tone 2, 3 - custom ring tone 3, 4 - silent, 5 - Default Ringtone. Default is 0. -->
@@ -2826,19 +2842,36 @@
 
     <!-- #Do Not Disturb (DND) - On -->
     <!-- # String -->
-    <P2544></P2544>
+    {if isset($account.3.password)}
+        <P2544>*78</P2544>
+    {else}
+        <P2544></P2544>
+    {/if}
 
     <!-- #Do Not Disturb (DND) - Off -->
     <!-- # String -->
-    <P2545></P2545>
+    {if isset($account.3.password)}
+        <P2545>*79</P2545>
+    {else}
+        <P2545></P2545>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - On -->
     <!-- # String -->
-    <P26213></P26213>
+    {if isset($account.3.password)}
+        <P26213>*72</P26213>
+    {else}
+        <P26213></P26213>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - Off -->
     <!-- # String -->
-    <P26214></P26214>
+    {if isset($account.3.password)}
+        <P26214>*73</P26214>
+    {else}
+        <P26214></P26214>
+    {/if}
+
 
     <!-- #Call Forward Busy - On -->
     <!-- # String -->
@@ -3205,7 +3238,7 @@
 
     <!-- # Conference URI -->
     <!-- # String -->
-    <P2618>{if $nway_conference == true}nway{$account.4.user_id}@{$account.4.server_address}{/if}</P2618>
+    <P2618></P2618>
 
     <!-- # Music On Hold URI -->
     <!-- # String -->
@@ -3777,19 +3810,35 @@
 
     <!-- #Do Not Disturb (DND) - On -->
     <!-- # String -->
-    <P2644></P2644>
+    {if isset($account.4.password)}
+        <P2644>*78</P2644>
+    {else}
+        <P2644></P2644>
+    {/if}
 
     <!-- #Do Not Disturb (DND) - Off -->
     <!-- # String -->
-    <P2645></P2645>
+    {if isset($account.4.password)}
+        <P2645>*79</P2645>
+    {else}
+        <P2645></P2645>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - On -->
     <!-- # String -->
-    <P26313></P26313>
+    {if isset($account.4.password)}
+        <P26313>*72</P26313>
+    {else}
+        <P26313></P26313>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - Off -->
     <!-- # String -->
-    <P26314></P26314>
+    {if isset($account.4.password)}
+        <P26314>*73</P26314>
+    {else}
+        <P26314></P26314>
+    {/if}
 
     <!-- #Call Forward Busy - On -->
     <!-- # String -->
@@ -4155,7 +4204,7 @@
 
     <!-- # Conference URI -->
     <!-- # String -->
-    <P2718>{if $nway_conference == true}nway{$account.5.user_id}@{$account.5.server_address}{/if}</P2718>
+    <P2718></P2718>
 
     <!-- # Music On Hold URI -->
     <!-- # String -->
@@ -4725,19 +4774,35 @@
 
     <!-- #Do Not Disturb (DND) - On -->
     <!-- # String -->
-    <P2744></P2744>
+    {if isset($account.5.password)}
+        <P2744>*78</P2744>
+    {else}
+        <P2744></P2744>
+    {/if}
 
     <!-- #Do Not Disturb (DND) - Off -->
     <!-- # String -->
-    <P2745></P2745>
+    {if isset($account.5.password)}
+        <P2745>*79</P2745>
+    {else}
+        <P2745></P2745>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - On -->
     <!-- # String -->
-    <P26413></P26413>
+    {if isset($account.5.password)}
+        <P26413>*72</P26413>
+    {else}
+        <P26413></P26413>
+    {/if}
 
     <!-- #Call Forward Unconditionally (All) - Off -->
     <!-- # String -->
-    <P26414></P26414>
+    {if isset($account.5.password)}
+        <P26414>*73</P26414>
+    {else}
+        <P26414></P26414>
+    {/if}
 
     <!-- #Call Forward Busy - On -->
     <!-- # String -->
@@ -5360,18 +5425,18 @@
     <!-- # When set to Yes(1), it will override the configured provision path and method -->
     <!-- # Number: 0, 1, 2 -->
     <!-- # Mandatory -->
-    {if isset($grandstream_dhcp_option_override)}<P145>{$grandstream_dhcp_option_override}</P145>{else}<P145>1</P145>{/if}
+    <P145>0</P145>
 
     <!-- # Additional Override DHCP Option. 0 - None,  1 - Option 150,  2 - Option 160. Default is 0 -->
     <!-- # Number: 0, 1, 2 -->
     <!-- # Mandatory -->
-    {if isset($grandstream_dhcp_option_additional_override)}<P8337>{$grandstream_dhcp_option_additional_override}</P8337>{else}<P8337>0</P8337>{/if}
+    <P8337>0</P8337>
 
     <!-- # Allow DHCP Option 120 to Override SIP Server -->
     <!-- # 0 - No, 1 - Yes. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    {if isset($grandstream_dhcp_option_override_sip_server)}<P1411>{$grandstream_dhcp_option_override_sip_server}</P1411>{else}<P1411>0</P1411>{/if}
+    <P1411>0</P1411>
 
     <!-- # 3CX Auto Provision. 0 - No, 1 - Yes. Default is Yes -->
     <!-- # Number: 0, 1 -->
@@ -6651,7 +6716,7 @@
     <!-- # Local Call Recording Feature. 0 - Disable, 1 - Enable. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P6760>1</P6760>
+    <P6760>0</P6760>
 
     <!-- # Enable IM Popup Timeout. 0 - No, 1 - Yes. Default is 1 -->
     <!-- # Number: 0, 1 -->
@@ -6680,7 +6745,7 @@
     <!-- # Hide BLF Remote Status. 0 - No, 1 - Yes. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P8374>{$grandstream_blf_remote_status}</P8374>
+    <P8374>0</P8374>
 
     <!-- # Show SIP Error Response. 0 - No, 1 - Yes. Default is 1 -->
     <!-- # Number: 0, 1 -->
@@ -7007,21 +7072,17 @@
     <!-- # HEADSET Key Mode. 0 - Default Mode, 1 - Toggle Headset/Speaker. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-{if isset($grandstream_headset_key_mode)}
-    <P1312>{$grandstream_headset_key_mode}</P1312>
-{/if}
+    <P1312>0</P1312>
 
     <!-- # Headset Type. 0 - Normal, 1 - Plantronics EHS. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-{if isset($grandstream_headset_type)}
-    <P6779>{$grandstream_headset_type}</P6779>
+    <P6779>0</P6779>
 
     <!-- # EHS Headset Ring Tone. 0 - Normal, 1 - Plantronics EHS. Default is 0 -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P1487>{$grandstream_headset_type}</P1487>
-{/if}
+    <P1487>0</P1487>
 
     <!-- # Always Ring Speaker. 0 - No, 1 - Yes. Default is 0 -->
     <!-- # Number: 0, 1 -->
@@ -7083,7 +7144,7 @@
     <!-- # When set to Yes(1), it will override the configured NTP server -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P144>1</P144>
+    <P144>0</P144>
 
     <!-- # Time Zone -->
 
@@ -7162,7 +7223,7 @@
     <!-- # When set to Yes(1), it will override the configured Time Zone setting if available  -->
     <!-- # Number: 0, 1 -->
     <!-- # Mandatory -->
-    <P143>1</P143>
+    <P143>0</P143>
 
     <!-- # Self Defined Time zone. Max length allowed is 64 characters -->
     <!-- # String -->
@@ -7224,7 +7285,9 @@
 {if isset($grandstream_wallpaper_url)}
     <P2916>1</P2916>
     <P2917>{$grandstream_wallpaper_url}</P2917>
-
+{else}
+    <P2916>0</P2916>
+    <P2917></P2917>
 {/if}
 
     <!-- # Color Background. Default is #000000. -->
@@ -7236,6 +7299,8 @@
     <!-- # Mandatory -->
 {if isset($grandstream_screensaver)}
     <P2918>{$grandstream_screensaver}</P2918>
+{else}
+    <P2918>2</P2918>
 {/if}
 
     <!-- # Screensaver Source.  0 - Default, 1 - USB, 2 - Download. Default is 0.  -->
@@ -7243,6 +7308,8 @@
     <!-- # Mandatory -->
 {if isset($grandstream_screensaver_source)}
     <P6759>{$grandstream_screensaver_source}</P6759>
+{else}
+    <P6759>0</P6759>
 {/if}
 
     <!-- # Show Date and Time. 0 - No, 1 - Yes. Default is 1 -->
@@ -7590,11 +7657,11 @@
     <!-- # Softkey layout in Call Connected state  -->
     <!-- # String: BTPhonebook,BTOnOff,EndCall,ReConf,ConfRoom,ConfCall,Cancel,NewCall,Swap,Transfer,Trnf>VM,DialDTMF,BSCCenter,URecord,Record,UCallPark,PrivateHold,CallPark, -->
     <!-- # Custom-Hold,Custom-Conference,Custom-Mute -->
-    <P2928> BTPhonebook,BTOnOff,EndCall,ReConf,ConfRoom,ConfCall,Cancel,NewCall,Swap,Transfer,Trnf&gt;VM,DialDTMF,BSCCenter,URecord,Record,UCallPark,PrivateHold,CallPark</P2928>
+    <P2928> BTPhonebook,BTOnOff,EndCall,ReConf,ConfRoom,ConfCall,Cancel,NewCall,Swap,Transfer,Trnf&gt;VM,DialDTMF,BSCCenter,UCallPark,PrivateHold,CallPark</P2928>
 
     <!-- # Softkey layout In conference connected state -->
     <!-- # String: BTOnOff,EndCall,Kick,NewCall,Trnf>VM,DialDTMF,BSCCenter,URecord,Record,ConfRoom,Add,Custom-Hold,Custom-Split,Custom-Mute -->
-    <P2933>BTOnOff,EndCall,Kick,NewCall,Trnf&gt;VM,DialDTMF,BSCCenter,URecord,Record,ConfRoom,Add</P2933>
+    <P2933>BTOnOff,EndCall,Kick,NewCall,Trnf&gt;VM,DialDTMF,BSCCenter,ConfRoom,Add</P2933>
 
     <!-- # Softkey layout in onhold state -->
     <!-- # String: ReConf,Resume,HoldTrnf,ConfCall,Add,Custom-NewCall,Custom-EndCall -->
